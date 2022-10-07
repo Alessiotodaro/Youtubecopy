@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    display: flex;
+    margin: 0;
+    height: 100vh;
+}
+#main {
+    width: 100%;
+}
+#content {
+    display: flex;
+    flex-direction: row;
+    flex-flow: row wrap;
+    padding: 3em;
+}
+#sidebar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+}
+
+.sidebar-icon {   
+    height: 19.5vh;
+    padding:0 2.8em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.sidebar-icon-menu {   
+    height: 8vh;
+    padding:0 2.8em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+#sidebar p {
+    font-family: Roboto, sans-serif;
+    font-size: 0.8em;
+    margin:0;
+}
+#sidebar ion-icon {
+    font-size: 2.1em;
+}
+#topbar{
+    height: 8vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+#search {
+    display: flex;
+    height: 50%;
+
+}
+#search input {
+    width: 55vh;
+}
+#mic-icon {
+    background-color:rgba(100, 100, 100, 0.0);
+    border:0;
+    cursor: pointer;
+}
+#mic-icon ion-icon {
+    font-size: 2em;
+}
+#search-icon {
+    width: 4em;
+}
+#search-icon ion-icon {
+    font-size: 1.5em;
+}
+#Logo {
+height: 50%;
+}
+#topbar-icon {
+    display: flex;
+    cursor: pointer;
+    padding-right: 2em;
+}
+.topbar-icon ion-icon {
+    font-size: 2em;
+    padding: 0 0.3em;
+}
+.tumb img {
+width: 50vh;
+}
+.insieme {
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+
+}
+.descrizione-tumb {
+display: flex;
+flex-direction: row;
+
+}
+.logo-epicode img {
+    width: 50px;
+    padding-top: 0.8em;
+   
+}
+.scritte {
+    padding-left: 0.9em;
+    
+}
+.scritte h4 {
+    margin:0;
+    padding-top: 0.5em;
+    padding-bottom: 0.1em;
+    font-size: 1.3em;
+    font-family: Roboto, sans-serif;
+    
+}
+.scritte p {
+    margin:0;
+    font-size: 1em;
+    font-family: Roboto, sans-serif;
+    
+}
